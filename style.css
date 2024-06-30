@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(228, 141, 188);
+    padding: 10px 100px;
+    width: 1250px;
+   
+}
+
+.navbar .fa-plane {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.navbar .logo {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 300px;
+}
+
+.navbar .menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+}
+
+.navbar .menu li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .auth-buttons {
+    margin-left: 200px ;
+    display: flex;
+}
+       
+.navbar .auth-buttons button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ea5cc9;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 3px solid #333;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 10px;
+    }
+    
+    .navbar .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        font-size: 5px;
+    }
+
+    .navbar .menu li {
+        margin: 10px 0;
+    }
+
+    .navbar .auth-buttons {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .navbar .auth-buttons button {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+
+
+
+.home {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -400px;
+    margin-left: 300px;
+    font-size: 23px;
+}  
+
+.home .btn button {
+   padding: 15px;
+   border-radius: 20px;
+   background-color: black;
+   color: azure;
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 900px;
+    height: 450px;
+    position: relative;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+
+.box1 {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(218, 214, 214, 0.521);
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 5px;
+    margin-left: 1200px;
+    margin-top: -250px;
+    position: absolute;
+}
+
+.award {
+    height: 15px;
+    width: 25px;
+    float: left;
+    margin-top: 20px;
+}
+.box2 {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(218, 214, 214, 0.521);
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: -360px;
+}
+
+.like {
+    height: 35px;
+    width: 25px;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.box3 {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(218, 214, 214, 0.521);
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: 900px;
+    margin-top: -150px;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .home {
+        margin-left: 20px;
+        font-size: 10px;
+        margin-top: -150px;
+    }
+
+    .img {
+        margin-left: 200px;
+        height: 200px;
+        width: 120px;
+    }
+
+    .home .btn button {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: black;
+        color: azure;
+     }
+    
+    .award {
+        height: 15px;
+        width: 15px;
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .like {
+        height: 15px;
+        width: 15px;
+        float: left;
+    }
+
+    .box1   {
+        width: 20px;
+        height: 20px;
+        margin-left: 260px;
+        margin-top: -130px;
+        position: relative;
+        font-size: 5px;
+    }
+   
+    .box2 {
+        width: 40px;
+        height: 20px;
+        margin-left: 200px;
+        margin-top: -90px;
+        position: relative;
+        font-size: 4px; 
+    }
+  
+    .box3 {
+        width: 40px;
+        height: 20px;
+        margin-left: 200px;
+        margin-top: 60px;
+        position: relative;
+        font-size: 4px; 
+    }
+
+    .container {
+        font-size: 12px;
+    }
+}
+
+
+
+
+.box {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(228, 141, 188);
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.locations {
+    background-color:  rgb(228, 141, 188); 
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+
+.loc {
+    float: left;
+}
+.month {
+    background-color:  rgb(228, 141, 188); 
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+
+.cal {
+    float: left;
+}
+
+.Guest {
+    background-color:  rgb(228, 141, 188); 
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.gus  {
+    float: left;
+}
+
+.button {
+    padding: 10px;
+    background-color:  black;
+    color: white;
+    border: 3px solid #333;
+    border-radius: 15px;
+}
+
+.p {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .box {
+        margin: 20px 10px;
+        padding: 5px;
+    }
+
+    .locations, .month, .Guest {
+        margin: 10px 20px;
+        background-color: rgb(228, 141, 188);
+    }
+
+    .loc, .cal, .gus {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .p {
+        font-size: 12px;
+        margin: 10px 20px;
+    }
+}
+
+   
